@@ -1,0 +1,20 @@
+package tetris2048.model;
+
+public enum GameCommand {
+
+	SHIFT_TILE_LEFT,
+	SHIFT_TILE_RIGHT,
+	SHIFT_TILE_DOWN,
+	
+	DROP_TILE_TO_BOTTOM,
+	
+	ROTATE_TILE_LEFT,
+	ROTATE_TILE_RIGHT,
+
+	PACK_CELLS_LEFT,
+	PACK_CELLS_RIGHT,
+	PACK_CELLS_DOWN,
+
+	/** Do nothing */
+	NULL_COMMAND
+}
